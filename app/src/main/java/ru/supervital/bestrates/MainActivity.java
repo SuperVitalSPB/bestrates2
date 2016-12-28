@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
 	@Override
 	public void onBackPressed() {
 		//Метод вызова рекламы при нажатии кнопки back
-		startAppAd.onBackPressed();
+		//startAppAd.onBackPressed();
 
 		if (myAppl.ActiveFragment != null && myAppl.ActiveFragment.ID != FRAME_BUTTONS)
 			selectItem(FRAME_BUTTONS);
