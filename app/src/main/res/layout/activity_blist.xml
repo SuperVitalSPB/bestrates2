@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tv_background_with_divider"
+    tools:context=".BL_Activity" >
+
+    <LinearLayout
+        android:id="@+id/ll_CB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_background_with_divider"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgCB"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginRight="10sp"
+            android:contentDescription="@string/cdPiktBank"
+            android:src="@drawable/icon_cb" />
+
+        <TextView
+            android:id="@+id/txtRateCB"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+			android:layout_marginRight="10sp"
+			android:textSize="16sp"
+			android:textAlignment="gravity"
+            android:gravity="left"
+            android:text="@string/slblRateCB" />
+
+        <ImageView
+            android:id="@+id/imgCh"
+            android:layout_width="22dp"
+            android:contentDescription="@string/imgcdChVal"
+            android:layout_height="22dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_Caption"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_background_with_divider"        
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblCapReg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BLCapReg" />
+	        
+	    <TextView
+	        android:id="@+id/lblCapCountB"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+			android:visibility="gone"	        
+	        android:text="@string/BLTotalCountB" />
+
+	</LinearLayout>
+    	
+    <LinearLayout
+        android:id="@+id/ll_labels"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+		android:background="@drawable/tv_background_with_divider"
+        android:weightSum="1" >
+
+	    <TextView
+	        android:id="@+id/lblSortNameBank"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.5"
+	        android:text="@string/lblNameBank"
+	        android:textAlignment="center"
+	        android:textSize="16sp" />
+	    <ImageView
+	        android:id="@+id/imgSortName"
+	        android:layout_width="22sp"
+	        android:layout_height="22sp"
+	        android:visibility="gone"
+	        android:layout_marginTop="6sp"
+	        android:contentDescription="@string/imgcdTypeSort"
+	        android:src="@drawable/sort_az" />
+	    
+	    	    	    
+	    <TextView
+	        android:id="@+id/lblSortVbuy"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.25"
+	        android:text="@string/lblVbuy"
+	        android:textAlignment="gravity"
+	        android:textSize="16sp" />
+	    <ImageView
+	        android:id="@+id/imgSortBuy"
+	        android:layout_width="16sp"
+	        android:layout_height="16sp"
+	        android:visibility="gone"
+	        android:layout_marginTop="6sp"
+	        android:contentDescription="@string/imgcdTypeSort"
+	        android:src="@drawable/sort_up" />
+	    
+	    
+	    	    
+	    <TextView
+	        android:id="@+id/lblSortVsell"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.25"
+	        android:text="@string/lblVsell"
+	        android:textAlignment="gravity"
+	        android:textSize="16sp" />
+	    <ImageView
+	        android:id="@+id/imgSortSell"
+	        android:layout_width="16sp"
+	        android:layout_height="16sp"
+	        android:visibility="gone"
+	        android:layout_marginTop="6sp"
+	        android:contentDescription="@string/imgcdTypeSort"
+	        android:src="@drawable/sort_up" />
+	    	    
+	    
+	</LinearLayout>    
+    
+    <LinearLayout
+        android:id="@+id/ll_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/lblStateLB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+
+    <view
+        android:id="@+id/lvBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="ru.supervital.bestrates.BackgroundContainer" >
+
+        <ListView
+            android:id="@+id/lvMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.37"
+            android:drawSelectorOnTop="true"
+            android:fadingEdge="vertical|horizontal"
+            android:background="@drawable/tv_background_with_divider"
+            android:overScrollMode="always"
+            android:scrollbars="horizontal|vertical"
+            android:scrollingCache="true" >
+        </ListView>
+    </view>
+
+</LinearLayout>

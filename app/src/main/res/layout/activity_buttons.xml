@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    		xmlns:tools="http://schemas.android.com/tools"
+		    android:layout_width="fill_parent"
+			android:background="@drawable/tv_background_with_divider"
+			android:layout_height="fill_parent"
+			tools:context=".fraButtons" >
+	<LinearLayout
+		    android:id="@+id/ll_Global"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+	
+		    <LinearLayout
+		        android:id="@+id/ll_Develop"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:visibility="gone" >
+		          <TextView
+		              android:id="@+id/lblDevelop"
+		              android:layout_width="fill_parent"
+		              android:layout_height="wrap_content"
+		              android:textColor="#ff7700"
+		              android:gravity="center"
+		              android:text="@string/develop"/>
+		    </LinearLayout>
+		    	    
+			
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" >
+				    	    
+				<LinearLayout
+				    android:id="@+id/ll_spinner"
+				    android:layout_width="fill_parent"
+				    android:layout_height="match_parent"
+				    android:orientation="vertical" >
+	
+				    <TextView
+				        android:id="@+id/lblSelRegion"
+				        android:layout_width="fill_parent"
+				        android:layout_marginLeft="10dp"
+				        android:layout_height="wrap_content"/>
+				    
+						<Spinner
+						    android:id="@+id/spRegions"
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"
+						    android:animateLayoutChanges="true"
+						    android:drawSelectorOnTop="true"
+						    android:layout_marginLeft="20dp"
+						    android:layout_marginRight="20dp"
+						    android:spinnerMode="dialog" />
+				</LinearLayout>
+				
+			    <LinearLayout
+			        android:id="@+id/ll_progressbarregions"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+					android:visibility="gone"		        	       	        
+			        android:orientation="vertical" >
+		
+			       <TextView
+			           android:id="@+id/lblStateRegs"
+			           android:layout_width="match_parent"
+			           android:layout_height="wrap_content" />
+			       
+			       <ProgressBar
+			           android:id="@+id/pbRegions"
+			           style="?android:attr/progressBarStyleLarge"
+			           android:layout_width="match_parent"
+			           android:layout_height="match_parent"
+			           android:layout_gravity="center" />
+			       
+			       <LinearLayout
+						    android:id="@+id/ll_pb"
+						    android:layout_width="fill_parent"
+						    android:layout_height="wrap_content"
+						    android:weightSum="1"
+						    android:orientation="vertical" >
+				        <ProgressBar
+				            android:id="@+id/pb_main"
+				            style="@android:style/Widget.ProgressBar.Horizontal"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_marginLeft="10dp"
+				            android:layout_marginRight="10dp"
+				            android:visibility="gone"
+				            android:layout_weight="0.7"
+				            android:max="100" />
+						<ProgressBar
+				            android:id="@+id/pb_secondary"
+				            style="@android:style/Widget.ProgressBar.Horizontal"
+				            android:layout_width="fill_parent"
+				            android:layout_height="5dp"
+				            android:layout_marginLeft="12dp"
+				            android:layout_marginRight="12dp"
+				            android:layout_weight="0.3"
+				            android:visibility="gone"/>		       
+				        
+			    	</LinearLayout>   
+				</LinearLayout>
+			</LinearLayout>			
+			    	    
+			<LinearLayout
+			    android:id="@+id/ll_mainButton"
+			    android:layout_width="fill_parent"
+			    android:layout_marginTop="10sp"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" >
+			
+			
+				<LinearLayout
+				    android:id="@+id/ll_mainButton2"
+				    android:layout_width="fill_parent"
+				    android:layout_marginRight="18sp"
+				    android:layout_marginLeft="18sp"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical" >
+				    				    
+			        <Button
+			            android:id="@+id/btnBuyEUR"
+			            android:layout_height="wrap_content"
+			            android:layout_width="fill_parent"
+			            android:text="@string/buyEUR"/>
+			
+			        <Button
+			            android:id="@+id/btnBuyUSD"
+	                    android:layout_marginTop="5sp"
+			            android:layout_height="wrap_content"
+			            android:layout_width="fill_parent"
+			            android:text="@string/buyUSD" />
+			
+				    <Button
+				        android:id="@+id/btnMap"
+				        android:layout_height="wrap_content"
+				        android:layout_width="fill_parent"
+	                    android:layout_marginTop="5sp"
+				        android:text="@string/map" />
+				    
+				</LinearLayout>
+	
+			    <LinearLayout
+			        android:id="@+id/ll_progressbarCB"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center"
+			        android:gravity="center_horizontal"
+			        android:visibility="gone" 
+			        android:orientation="vertical" >
+			
+			        <TextView
+			            android:id="@+id/lblStateCB"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="30sp" />
+			
+			        <ProgressBar
+			            android:id="@+id/progressbar"
+			            style="?android:attr/progressBarStyleLarge"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginBottom="8dp" />
+			    </LinearLayout>
+			
+			    <LinearLayout
+			        android:id="@+id/ll_rateCb"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center"
+			        android:gravity="center_horizontal"
+			        android:visibility="gone" 
+			        android:layout_marginTop="12dp"
+			        android:orientation="vertical" >
+			        <LinearLayout
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/tv_background_with_divider"
+			            android:layout_marginTop="3sp"
+			            android:orientation="horizontal" >
+			        			
+				        <ImageView
+				            android:id="@+id/imgCB"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:layout_marginRight="10sp"
+				            android:layout_marginLeft="10dp"
+				            android:contentDescription="@string/cdPiktBank"
+				            android:src="@drawable/icon_cb" />
+				        <TextView
+				            android:id="@+id/lblRateCb"
+				            android:layout_width="match_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_gravity="center_vertical"
+				            android:textColor="@color/blue_color"
+				            android:textAppearance="?android:attr/textAppearanceMedium" />
+					</LinearLayout>
+								
+			        <LinearLayout
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/tv_background_with_divider"
+			            android:layout_marginTop="1sp"
+			            android:orientation="horizontal" >
+			
+			            <ImageView
+			                android:id="@+id/imgEur"
+			                android:contentDescription="@string/cdImgVal"
+			                android:layout_marginLeft="10dp"
+			                android:layout_width="22sp"
+			                android:layout_height="22sp"
+			                android:src="@drawable/eur" />
+			
+			            <TextView
+			                android:id="@+id/lblRateCbEur"
+			                android:layout_width="0dip"
+			                android:layout_height="wrap_content"
+			                android:layout_marginLeft="10sp"
+			                android:layout_weight="7"
+			                android:gravity="center"
+			                android:textSize="20sp" />
+	<!--                        android:textColor="@color/holo_green_main" -->
+			            		            
+	
+			
+			            <ImageView
+			                android:id="@+id/imgChEur"
+			                android:layout_width="26dp"
+			                android:contentDescription="@string/cdImgCHVal"
+			                android:layout_marginRight="10dp"
+			                android:layout_height="match_parent" />
+			        </LinearLayout>
+			
+			        <LinearLayout
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/tv_background_with_divider"
+			            android:layout_marginTop="1sp"
+			            android:orientation="horizontal" >
+			
+			            <ImageView
+			                android:id="@+id/imgUsd"
+			                android:contentDescription="@string/cdImgVal"
+			                android:layout_marginLeft="10dp"
+			                android:layout_width="22sp"
+			                android:layout_height="22sp"
+			                android:src="@drawable/usd" />
+			
+			            <TextView
+			                android:id="@+id/lblRateCbUsd"
+			                android:layout_width="0dip"
+			                android:layout_height="wrap_content"
+			                android:layout_marginLeft="10sp"
+			                android:layout_weight="7"
+			                android:gravity="center"
+			                android:textSize="20sp" />
+	<!--                         android:textColor="@color/holo_green_main"		             -->
+	
+			            <ImageView
+			                android:id="@+id/imgChUsd"
+			                android:layout_width="26dp"
+			                android:contentDescription="@string/cdImgCHVal"
+			                android:layout_marginRight="10dp"
+			                android:layout_height="match_parent" /> 
+			                
+			        </LinearLayout>
+		    </LinearLayout>
+
+			<LinearLayout
+					android:id="@+id/ll_AllValCB"
+					android:layout_width="fill_parent"
+					android:layout_marginRight="18sp"
+					android:layout_marginLeft="18sp"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="30sp"
+					android:orientation="vertical" >
+
+				<Button
+						android:id="@+id/btnAllValCB"
+						android:layout_height="wrap_content"
+						android:layout_width="fill_parent"
+						android:text="@string/capbAllValCB"/>
+			</LinearLayout>
+
+		</LinearLayout>
+
+       <com.startapp.android.publish.banner.Banner
+                     android:id="@+id/startAppBanner"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     />
+
+
+        	   	   					
+	</LinearLayout>
+
+		
+
+</ScrollView>	

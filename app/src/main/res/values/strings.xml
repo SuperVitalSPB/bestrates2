@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Лучший курс обмена</string>
+    <string name="banklist">Список банков</string>
+    <string name="Region">Регион:</string>
+    <string name="buyEUR">Продать/Купить EUR</string>
+    <string name="buyUSD">Продать/Купить USD</string>
+    <string name="slblRateCB">Курс ЦБ</string>
+    <string name="lblNameBank">наименование</string>
+    <string name="lblVbuy">покупает</string>
+    <string name="lblVsell">продает</string>
+    <string name="lblVdate">время</string>
+    <string name="fc_buyeur">Покупка/Продажа EUR</string>
+    <string name="fc_buyusd">Покупка/Продажа USD</string>
+    <string name="map">На карте</string>
+    <string name="ratecb">Курс ЦБ РФ на &lt;b>%s&lt;/b>:</string>
+    <string name="lblRateCb">1 %s   RUR</string>
+    <string name="sNotLogin">НЕТ соединения с internet!</string>
+    <string name="sPred">предыдущий: </string>
+    <string name="sChange">разница: </string>
+    <string name="develop"> <b>DELEVOP</b> </string>
+
+    <string name="stGetRegions">Получение списка регионов&#8230;</string>
+    <string name="stParseRegions">Разбор списка регионов&#8230;</string>
+    <string name="stConnCB">Подключение к серверу ЦБ&#8230;</string>
+    <string name="stParseRates">Разбор списка валют&#8230;</string>
+    <string name="stGetBanks">Получение списка банков&#8230;</string>
+    <string name="stGetDopInfo">Получение дополнительной информации&#8230;</string>
+
+    <string name="sPhoneCC"><strong>Телефон коллцентра:</strong></string>
+
+    <string name="stGetFilials">Получение списка филиалов&#8230;</string>
+    <string name="stGetFilialInfo">Получение информации о филиале&#8230;</string>
+    <string name="stParseBanks">Разбор списка банков&#8230;</string>
+    <string name="stParseDopInfo">Разбор дополнительной информации&#8230;</string>
+    <string name="stThErr">тра-та-та</string>
+    <string name="stParseFilials">Разбор списка филиалов&#8230;</string>
+    <string name="stParseFilialInfo">Разбор информации о филиале&#8230;</string>
+    <string name="stAllOk">Готово.</string>
+    <string name="stLoadMap">Загрузка карты&#8230;</string>
+    <string name="stTotalBanks">Всего банков: </string>
+    <string name="stLoadStackFilials" formatted="false">Получаем %s пачку филиалов, всего пачек: %s&#8230;</string>
+    <string name="stParseStackFilials" formatted="false">Разбираем %s пачку филиалов, всего пачек: %s&#8230;</string>
+
+
+    <string name="stTotalFilials">Всего филиалов: </string>
+    <!--     <string name="stSettingTopZero">Проверьте настройки, не задан топ банков!</string> -->
+
+    <string name="cdPiktBank">Пиктограмма Банка</string>
+    <string name="cdImgVal">Символ валюты</string>
+    <string name="cdImgMenuDrawer">Иконка пункта меню слева</string>
+    <string name="cdImgCHVal">Символ изменения курса</string>
+
+
+    <string name="BLCapReg">Список банков в регионе &#8221;%s&#8221;</string>
+    <string name="BLTotalCountB" formatted="false">всего банков: %s</string>
+    <string name="BLShowCountB">, показано %s </string>
+
+    <string name="smBankFilials">Филиалы банка&#8230;</string>
+    <string name="smFilialInfo">Информация о филиале&#8230;</string>
+    <string name="smMap">На карте&#8230;</string>
+    <string name="smDopInfo">Дополнительная информация</string>
+
+    <string name="TriPoint">&#8230;</string>
+    <string name="Colon">: </string>
+    <string name="NotDopInfo">Для этого банка не отсутствует дополнительная информация</string>
+
+
+
+
+    <string name="title_activity_bank_filials">Филиалы банка</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="imgcdChVal">индикатор изменения</string>
+    <string name="imgcdTypeSort">индикатор типа сртировки</string>
+    <string name="lblNameFilial">Название филиала:</string>
+    <string name="lblAdress">Адрес:</string>
+    <string name="lblTimeWork">Время работы:</string>
+    <string name="lblContacts">Контакты:</string>
+    <string name="lblServices">Услуги:</string>
+    <string name="btnContacts">Контакты&#8230;</string>
+    <string name="btnServices">Услуги&#8230;</string>
+    <string name="imgcdLogoBank">Логотип банка</string>
+    <string name="mnuRefresh">Обновить</string>
+    <string name="lblFirstFilials">показаны первые %s филиалов</string>
+    <string name="title_activity_map">Курсы валют на карте</string>
+    <string name="title_activity_test">Тестовая Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="smool_on_map">на карте&#8230;</string>
+    <string name="mnogominus">--------------</string>
+    <string name="sForBankNotFoundDopInfo">для банка отсутствует дополнительная информация</string>
+
+
+
+    <string name="lblBalloonStrVal"  formatted="false">покупает   -   %s %sпродает   -   %s</string>
+
+    <string name="dmImgMain">dm_img_main</string>
+    <string name="dmMain">Главная</string>
+    <string name="dmDescrMain">главная форма, из которой можно узнать лучший курс и посмотреть филиалы, на карте, которые его предлагают</string>
+
+    <string name="dmImgSetting">dm_img_setting</string>
+    <string name="dmSetting">Настройки</string>
+    <string name="dmDescrSetting">настройки програмы</string>
+
+    <string name="dmImgManual">dm_img_manual</string>
+    <string name="dmManual">Краткое руководство</string>
+    <string name="dmDescrManual">краткая инструкция по эксплуатации</string>
+
+    <string name="dmImgFeedback">dm_img_feedback</string>
+    <string name="dmFeedback">Обратная связь</string>
+    <string name="dmDescrFeedback">отправить e-mail разработчику</string>
+
+    <string name="dmImgRate">dm_img_rate</string>
+    <string name="dmRate">Оценить</string>
+    <string name="dmDescrRate">оценить приложение в Маркете</string>
+
+    <string name="dmImgSupport">dm_img_support</string>
+    <string name="dmSupport">Поддержать</string>
+    <string name="dmDescrSupport">поддержать разработчика</string>
+
+    <string name="dmImgAbout">dm_img_about</string>
+    <string name="dmAbout">О программе</string>
+    <string name="dmDescrAbout">инфо об Авторе и версии Программы</string>
+
+    <string name="dmImgExit">dm_img_exit</string>
+    <string name="dmExit">Выход</string>
+    <string name="dmDescrExit">завершить работу с программой</string>
+
+    <string name="drawer_open">Открыть ящик слева</string>
+    <string name="drawer_close">Закрыть ящик слева</string>
+
+    <string name="setting_lbl">Курсы в банках:</string>
+    <string name="showTopBanks">Показывать топ банков:</string>
+    <string name="DescrTopAll">Будут показаны все банки региона в списке и на карте</string>
+    <string name="YouIntereset">Интересует:</string>
+    <string name="OperByVal">Операция банка с валютой:</string>
+    <string name="EUR">EUR</string>
+    <string name="USD">USD</string>
+    <string name="Bye">Покупка</string>
+    <string name="Sale">Продажа</string>
+
+    <string name="about1">Творец и автор: Оанца Виталий
+        \n
+        <a href="mailo:o_vital@mail.ru"><b>o_vital@mail.ru</b></a>
+    </string>
+
+    <string name="about2" formatted="false">версия %s</string>
+    <string name="about3">написать автору:  </string>
+    <string name="myemail">o_vital@mail.ru</string>
+    <string name="subj_email">Отзывы и предложения: </string>
+    <string name="HistChange">История изменений: </string>
+
+    <string name="txtHistChange">
+        <b>Текущая версия 3.00 от 31.01.2015:</b>                                                                                          \n
+        \t  1. Исправлены мелкие ошибки                                                                                                    \n
+        \t  2. Добавлен показ рекламы, в платной версии рекламы нет                                                                        \n
+        \n
+        Версия 2.00 от 24.10.2014:                                                                                                         \n
+        \t  1. Исправлены мелкие ошибки                                                                                                    \n
+        \t  2. Переписан алгоритм поиска лучших курсов                                                                                     \n
+        \t  3. Улучшена производительность и стабильность приложения                                                                       \n
+        \n
+        Версия 1.10 от 02.10.2014:                                                                                                         \n
+        \t  1. Исправлены мелкие ошибки                                                                                                    \n
+        Версия 1.09 от 19.09.2014:                                                                                                         \n
+        \t  1. При загрузке большого количества филиалов банка выдается более информативное сообщение о процессе                           \n
+        \t  2. Исправлены мелкие ошибки                                                                                                    \n
+        Версия 1.08 от 18.09.2014:                                                                                                         \n
+        \t  1. Исправлены мелкие ошибки                                                                                                    \n
+        Версия 1.07 от 15.09.2014:                                                                                                         \n
+        \t  1. Исправлена глобальная ошибка при которой не выдавались курсы.                                                               \n
+        Версия 1.06 от 27.08.2014:                                                                                                         \n
+        \t  1. Добавлено автоопределение и автоссылки на номера телефонов филиалов                                                         \n
+        Версия 1.05 от 25.08.2014:                                                                                                         \n
+        \t  1. Исправлены и устранены различные мелкие ошибки                                                                              \n
+        Версия 1.04 от 20.08.2014:                                                                                                         \n
+        \t  1. Поправил алгоритм работы приложения в разных потоках                                                                        \n
+        \t  2. Исправлены и устранены различные мелкие ошибки                                                                              \n
+    </string>
+
+    <string name="thanks">
+        \t ОЗНАКОМИТЕЛЬНАЯ ВЕРСИЯ \n
+        \n
+        \n
+        \t В ПЛАТНОЙ ВЕРСИИ: \n
+        \t НЕТ РЕКЛАМЫ                                                                                                           \n
+        \t Для Банка активен пункт меню \"Дополнительная информация...\", в котором можно просмотреть различную информацию:      \n
+        \t\t > источник информации о курсе валюты                                                                                \n
+        \t\t > есть ли соответствие курса валют банка и реальной ситуации в отделениях                                           \n
+        \t\t > берется ли комиссия при валютно-обменных операциях                                                                \n
+        \t\t > как часто меняется курс валюты в банке, в течение дня                                                             \n
+        \t\t > в каком отделении банка самый выгодный курс                                                                       \n
+        \t\t > есть ли льготный курс обмена                                                                                      \n
+
+    </string>
+
+
+
+    <string name="manualProgramm">Если Вы хотите купить Евро или Доллар по самому выгодному курсу, то эта программа для Вас.
+        При помощи этого приложения вы всегда сможете узнать где можно выгодно приобрести валюту или продать.
+        \n
+        \n
+        Курсы валют, в нашей стране, меняются ежедневно, а количество банков больше сотни, поэтому отследить все изменения самостоятельно фактически невозможно.
+        \n
+        \n
+        Специально для решения этой проблемы я написал это приложение. Здесь вы можете увидеть курсы валют всех основных банков выбранного региона.
+        \n
+        \n
+        Программа предоставляет информацию по множеству регионов России, на сегодняшний день это более 80 регионов.
+        Вы можете выбрать выгодные курсы как в списке банков, так и на карте, соответствующего региона.
+        Если Вы выделите банк, в списке, и небольшое время подержите его активным, то Вам откроется меню, в котором Вам будет предложено посмотреть список филиалов банка, или же посмотреть эти филиалы на карте.
+    </string>
+
+    <string name="donorsite">http://www.bmsk.ru</string>
+    <string name="manualFrom">Данные о курсах берутся с сайта
+        \n
+        <a href="http://www.bmsk.ru"><b>http://www.bmsk.ru</b></a>
+        \n
+        На сайте, эти данные, формируются согласно данным, которые предоставляют сотрудники банков, либо получаются в автоматизированном режиме с официальных сайтов банков.
+        Обновление курсов происходит регулярно (до десяти раз в сутки) и актуально в течение дня.
+    </string>
+    <string name="manual1">Чтобы найти наиболее выгодный курс вам надо выбрать интересующий вас регион и нажать соответствующую кнопку.
+        После нажатия которой Вам будет показан либо список банков,
+        либо карта на которой будут отмечены филиалы банков, предлагающие или покупающие валюту. Данные представляются согласно заданным настройкам приложения.
+        \n
+        \n
+        На главном экране приложения, и на экране со списком банков, так же отображается последний курс установленный ЦБ России и картинка показывающая его изменение.
+        Для того чтобы увидеть предыдущий курс по ЦБ РФ надо кликнуть по текущему курсу. Предыдущий курс будет показан в всплывающей подсказке, внизу экрана.
+    </string>
+
+
+    <string name="titleMessageBox">Сообщение</string>
+    <string name="YouNCQ">Вы действительно желаете прервать запрос к серверу и разбор данных?</string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+
+    <string name="capbAllValCB">Все валюты по ЦБ</string>
+
+    <string name="test2">test2</string>
+    <string name="test">test</string>
+</resources>

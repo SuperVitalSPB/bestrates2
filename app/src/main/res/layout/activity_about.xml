@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:background="@drawable/tv_background_with_divider"
+    tools:context=".fraAbout" >
+
+    <LinearLayout
+        android:id="@+id/ll_GlobalManual"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical" >
+    
+	    <TextView
+	        android:id="@+id/txtAutor"        
+	        android:layout_marginTop="40dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/about1"
+	        android:textStyle="bold" />
+	    <ImageView
+	        android:id="@+id/star"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:visibility="gone"
+	        android:contentDescription="star"
+	        android:src="@drawable/star" />
+	    	    
+	    <TextView
+	        android:id="@+id/txtVer"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/about2"
+	        android:textStyle="bold" />
+	    
+	    <TextView
+	        android:id="@+id/txtThanks"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="40dp"
+	        android:text="@string/thanks"
+	        android:textColor="@color/gold_color"
+	        android:textStyle="bold" />
+	    
+	    <TextView
+	        android:id="@+id/lblHistChange"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="left"
+	        android:layout_marginTop="40dp"
+	        android:text="@string/HistChange"
+	        android:textStyle="bold" />
+	    <TextView
+	        android:id="@+id/txtHistChange"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/txtHistChange" />
+	    
+    </LinearLayout>	    
+    
+</ScrollView >

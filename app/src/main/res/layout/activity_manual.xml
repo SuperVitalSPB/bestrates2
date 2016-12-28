@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:background="@drawable/tv_background_with_divider"
+            android:layout_height="fill_parent"
+            tools:context=".fraManual" >
+ 
+    <LinearLayout
+        android:id="@+id/ll_GlobalManual"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/txtProgram"
+	        android:layout_marginTop="10dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/manualProgramm"/>
+	    
+	    
+	    <TextView
+	        android:id="@+id/txtFrom"
+	        android:layout_marginTop="10dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/manualFrom"/>
+	    
+	    <TextView
+	        android:id="@+id/txtManual"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/manual1"/>
+	    
+    </LinearLayout>
+    
+</ScrollView>

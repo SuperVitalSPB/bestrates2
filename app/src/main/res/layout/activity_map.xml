@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+		    android:id="@+id/container"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    tools:context=".MapActivity" >
+    
+<!--     android:background="@drawable/tv_background_with_divider" -->
+<!--     tools:ignore="MergeRootFrame" -->
+<!-- android:apiKey="1234567890" /> -->
+
+		<ru.yandex.yandexmapkit.MapView
+		    android:id="@+id/mapView"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+            android:apiKey="P0ISOJzaJroC6ZoQBfWMvGZ2GMAMR6Z~PWfnkKbKuY4xgNOXBJrzVQWB~oeWHC8k0BF1v3EWPCxLB7xQSF7lXsPgJfppsms6V-ewqcg3ZLg=" />		    
+            
+		                    
+
+ 
+</LinearLayout>
+

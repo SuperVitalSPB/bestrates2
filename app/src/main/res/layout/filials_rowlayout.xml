@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- filials_rowlayout.xml -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblNameFilial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/lblNameFilial"
+
+            android:textAlignment="gravity"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtNameFilial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NameFilial"
+            android:textAlignment="gravity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblAdress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text="@string/lblAdress"
+            android:textAlignment="gravity"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adress"
+            android:textAlignment="gravity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblTimeWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/lblTimeWork"
+
+            android:textAlignment="gravity"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTimeWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TimeWork"
+            android:textAlignment="gravity" />
+    </LinearLayout>
+    
+<!--  .....................................................   -->
+    
+    
+    
+    
+    <LinearLayout
+        android:id="@+id/ll_ContactsGlobal"        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+                <LinearLayout
+                    android:id="@+id/ll_lblContacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:id="@+id/lblContacts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="left"
+                        android:text="@string/lblContacts"
+                        android:textAlignment="gravity"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txtContacts"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contacts"
+                        android:autoLink="phone"
+                        android:linksClickable="true"
+                        android:textAlignment="gravity" />
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:id="@+id/ll_btnContacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"         
+                        android:orientation="vertical" >
+                        <Button
+	                           android:id="@+id/btnContacts"
+	                           android:layout_width="match_parent"
+	                           android:layout_height="26dp"
+                               android:background="@drawable/tv_background_with_divider"	                           
+	                           android:text="@string/btnContacts" />
+                             
+                    </LinearLayout>
+                </LinearLayout>
+    </LinearLayout>
+    
+    
+    
+    <LinearLayout
+        android:id="@+id/ll_ServicesGlobal"                
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_lblServices"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:id="@+id/lblServices"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/lblServices"
+                        android:textAlignment="gravity"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txtServices"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="gravity" />
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:id="@+id/ll_btnServices"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"         
+                        android:orientation="vertical" >
+                        <Button
+                                android:id="@+id/btnServices"
+                                android:layout_width="match_parent"
+                                android:layout_height="26dp"
+                                android:background="@drawable/tv_background_with_divider"                                                              
+                                android:text="@string/btnServices" />
+                    </LinearLayout>
+                </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll_btnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"         
+            android:orientation="vertical" >
+            <Button
+                    android:id="@+id/btnMap"
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp"
+                    android:background="@drawable/tv_background_with_divider"                                                  
+                    android:text="@string/smool_on_map" />
+        </LinearLayout>
+    </LinearLayout>
+ 
+
+<!--
+    <LinearLayout
+        android:id="@+id/ll_geopoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/txtLat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" />
+        <TextView
+            android:id="@+id/txtLon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+ -->        
+        
+<!-- ...................................... -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/holo_green_main"
+        android:text="@string/mnogominus"
+        android:textColor="@color/holo_green_main"/>
+
+</LinearLayout>

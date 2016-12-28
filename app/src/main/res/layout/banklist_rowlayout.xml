@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@layout/banklist_rowlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tv_background_with_divider"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imgBank"
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:src="@drawable/ic_launcher" />
+        
+    <TextView
+        android:id="@+id/txtNameBank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_weight="0.5"
+        android:textAlignment="gravity" />
+
+    <LinearLayout
+        android:id="@+id/ll_labels"
+        android:layout_width="155dp"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_marginRight="10sp"
+        android:weightSum="1" >
+<!-- Банк покупает -->
+        <TextView
+            android:id="@+id/txtVbuy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="right"/>
+<!-- Банк продает -->
+        <TextView
+            android:id="@+id/txtVsell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+			android:gravity="right"/>
+    </LinearLayout>
+
+</LinearLayout>
